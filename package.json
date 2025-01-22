@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "test": "cucumber-js",
-    "test:report": "cucumber-js && open reports/cucumber_report.html"
+    "run:feature": "cucumber-js"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^10.0.0",
+    "@types/node": "^22.10.7",
     "chai": "^4.3.6",
-    "typescript": "^5.2.2",
-    "protractor": "^7.0.0"
+    "protractor": "^7.0.0",
+    "typescript": "^5.2.2"
   }
 }
