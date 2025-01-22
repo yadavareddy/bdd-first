@@ -1,0 +1,14 @@
+{
+  "name": "bdd-typescript-repo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:report": "cucumber-js && open reports/cucumber_report.html"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "chai": "^4.3.6",
+    "typescript": "^5.2.2",
+    "protractor": "^7.0.0"
+  }
+}
